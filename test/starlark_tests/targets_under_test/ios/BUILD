@@ -4859,7 +4859,7 @@ ios_ui_test(
     ],
     minimum_os_version = common.min_os_ios.nplus1,
     runner = ":ios_test_runner_ui_test_runner",
-    tags = ["ios_test_runner_ui_test"],
+    tags = ["ios_test_runner_ui_test", "exclusive"],
     test_host = ":ios_test_runner_ui_test_app",
     deps = [
         ":ios_test_runner_ui_test_pass_lib",
@@ -4878,7 +4878,7 @@ ios_ui_test(
     ],
     minimum_os_version = common.min_os_ios.nplus1,
     runner = ":ios_test_runner_ui_test_runner",
-    tags = ["ios_test_runner_ui_test"],
+    tags = ["ios_test_runner_ui_test", "exclusive"],
     test_host = ":ios_test_runner_ui_test_app",
     deps = [
         ":ios_test_runner_ui_test_pass_lib",
